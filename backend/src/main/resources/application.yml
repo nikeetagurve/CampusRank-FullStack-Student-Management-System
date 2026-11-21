@@ -1,0 +1,20 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/campusrank}
+    username: ${DB_USERNAME:campusrank_user}
+    password: ${DB_PASSWORD:change_me}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+  jackson:
+    default-property-inclusion: non_null
+app:
+  jwt:
+    secret: ${JWT_SECRET:local-demo-secret-change-this-to-a-long-random-secret-key}
+    expiration-ms: 86400000

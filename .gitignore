@@ -1,0 +1,30 @@
+.DS_Store
+.env
+*.log
+node_modules/
+.expo/
+dist/
+build/
+target/
+.idea/
+.vscode/
+*.iml
+*.class
+*.jar
+coverage/
+
+# Dependencies and generated files
+node_modules/
+**/node_modules/
+frontend/ios/Pods/
+frontend/.expo/
+backend/target/
+.expo/
+.DS_Store
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks

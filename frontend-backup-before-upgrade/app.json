@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "CampusRank",
+    "slug": "campusrank",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": { "backgroundColor": "#F8F3EF" },
+    "ios": { "supportsTablet": true },
+    "android": { "adaptiveIcon": { "backgroundColor": "#F8F3EF" } }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "CampusRank",
+    "slug": "campusrank",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nikeetagurve.campusrank"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F8F3EF"
+      }
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-status-bar",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#F8F3EF"
+        }
+      ]
+    ]
+  }
+}
